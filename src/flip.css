@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.flippy-container {
+  font-size: 1rem;
+  font-family: 'Lobster', cursive;
+  box-sizing: none;
+}
+.card-group .card {
+  border: none;
+}
+.card-group
+  .card
+  .flippy-container
+  .flippy-cardContainer-wrapper
+  .flippy-cardContainer
+  .flippy-front {
+  box-shadow: none;
+}
+.card-group
+  .card
+  .flippy-container
+  .flippy-cardContainer-wrapper
+  .flippy-cardContainer
+  .flippy-front
+  .card-img-top {
+  height: 280px;
+  width: 100%;
+}
+.flippy-card.flippy-back .card-title {
+  color: #000;
+}
+.flippy-card.flippy-back .card-body {
+  color: #000;
+}
+.flippy-card.flippy-back .btn-info {
+  background-color: #000;
+  color: #fff;
+  border-color: #ffffff;
+}
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#7aab35, #96bb4a, #bcd384);
+}
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#00751f, #5aa33a, #bcd384);
+}
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#ff4e4e, #fe7275, #fea9af);
+}
+
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div:nth-child(4)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#a4a200, #bfb400, #f7e67d);
+}
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#2f631b, #a1bf4a, #dce355);
+}
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#a6cc48, #cade87, #d7e2a5);
+}
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > div:nth-child(3)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#fe9c13, #ffc26d, #fed49a);
+}
+#root
+  > div
+  > div.home
+  > div.sectionThree
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > div:nth-child(4)
+  > div
+  > div
+  > div
+  > div.flippy-card.flippy-back {
+  background-image: linear-gradient(#696d24, #ffffff, #e9ecef);
+}
