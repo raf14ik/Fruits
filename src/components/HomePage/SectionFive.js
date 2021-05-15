@@ -25,8 +25,20 @@ function SectionFive() {
         >
           Example 3: listes des produits
         </h3>
-
-        <Carousel slides={slides} autoplay={false} interval={2000} />
+        <div
+          data-aos="zoom-in-down"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="500"
+        >
+          <Carousel
+            data-aos="zoom-in-left"
+            data-aos-duration="600"
+            slides={slides}
+            autoplay={false}
+            interval={2000}
+          />
+        </div>
       </Container>
     </div>
   );

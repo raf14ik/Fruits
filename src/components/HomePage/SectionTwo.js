@@ -19,7 +19,12 @@ function SectionTwo() {
           </Col>
         </Row>
         <CardGroup>
-          <Card>
+          <Card
+            data-aos="flip-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="400"
+          >
             <Card.Img
               variant="top"
               src={philo1}
@@ -27,7 +32,12 @@ function SectionTwo() {
               onMouseOut={e => (e.currentTarget.src = philo1)}
             />
           </Card>
-          <Card>
+          <Card
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="400"
+          >
             <Card.Img
               variant="top"
               src={philo2}
@@ -35,7 +45,12 @@ function SectionTwo() {
               onMouseOut={e => (e.currentTarget.src = philo2)}
             />
           </Card>
-          <Card>
+          <Card
+            data-aos="flip-down"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="400"
+          >
             <Card.Img
               variant="top"
               src={philo3}
@@ -43,7 +58,12 @@ function SectionTwo() {
               onMouseOut={e => (e.currentTarget.src = philo3)}
             />
           </Card>
-          <Card>
+          <Card
+            data-aos="flip-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="400"
+          >
             <Card.Img
               variant="top"
               src={philo4}

@@ -5,12 +5,12 @@ import background1 from '../../images/background1.jpg';
 
 function slider() {
   return (
-    <Carousel fade>
+    <Carousel fade data-aos="zoom-in-left" data-aos-duration="600">
       <Carousel.Item>
         <img className="d-block w-100" src={background} alt="First slide" />
         <Carousel.Caption>
-          <h3>Leader des extraits de fruits</h3>
-          <p>
+          <h3 data-aos="zoom-in-down">Leader des extraits de fruits</h3>
+          <p data-aos="zoom-in-up">
             Et si être leader des extraits de fruits nous poussait chaque jour{' '}
             <br></br> à nous dépasser pour offrir le meilleur ?
           </p>

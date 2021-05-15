@@ -14,7 +14,12 @@ function CardFlip() {
   return (
     <div>
       <CardGroup>
-        <Card>
+        <Card
+          data-aos="zoom-in-down"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image1} />
@@ -32,7 +37,12 @@ function CardFlip() {
             </BackSide>
           </Flippy>
         </Card>
-        <Card>
+        <Card
+          data-aos="zoom-in-up"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image2} />
@@ -50,7 +60,12 @@ function CardFlip() {
             </BackSide>
           </Flippy>
         </Card>
-        <Card>
+        <Card
+          data-aos="zoom-in-down"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image3} />
@@ -69,7 +84,12 @@ function CardFlip() {
           </Flippy>
         </Card>
 
-        <Card>
+        <Card
+          data-aos="zoom-in-up"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image4} />
@@ -89,7 +109,12 @@ function CardFlip() {
         </Card>
       </CardGroup>
       <CardGroup>
-        <Card>
+        <Card
+          data-aos="zoom-in-down"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image5} />
@@ -107,7 +132,12 @@ function CardFlip() {
             </BackSide>
           </Flippy>
         </Card>
-        <Card>
+        <Card
+          data-aos="zoom-in-up"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image6} />
@@ -125,7 +155,12 @@ function CardFlip() {
             </BackSide>
           </Flippy>
         </Card>
-        <Card>
+        <Card
+          data-aos="zoom-in-down"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image7} />
@@ -143,7 +178,12 @@ function CardFlip() {
             </BackSide>
           </Flippy>
         </Card>
-        <Card>
+        <Card
+          data-aos="zoom-in-up"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="400"
+        >
           <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <Card.Img variant="top" src={image8} />

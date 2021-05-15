@@ -19,8 +19,19 @@ function SectionFour() {
         </h3>
         <CardGroup style={{ justifyContent: 'center' }}>
           <div className="example">
-            <Image src={pr1} fluid />
+            <Image
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
+              src={pr1}
+              fluid
+            />
             <Card
+              data-aos="zoom-in-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
               className="exampleFruit"
               style={{
                 width: '20rem',
@@ -43,8 +54,19 @@ function SectionFour() {
             </Card>
           </div>
           <div className="example" style={{ justifyContent: 'center' }}>
-            <Image src={pr2} fluid />
+            <Image
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
+              src={pr2}
+              fluid
+            />
             <Card
+              data-aos="zoom-in-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
               className="exampleFruit"
               style={{
                 width: '20rem',
@@ -65,8 +87,19 @@ function SectionFour() {
             </Card>
           </div>
           <div className="example" style={{ justifyContent: 'center' }}>
-            <Image src={pr3} fluid />
+            <Image
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
+              src={pr3}
+              fluid
+            />
             <Card
+              data-aos="zoom-in-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
               className="exampleFruit"
               style={{
                 width: '20rem',

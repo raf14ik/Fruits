@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import Slider from '../components/HomePage/Slider';
 import SectionOne from '../components/HomePage/SectionOne';
 import SectionTwo from '../components/HomePage/SectionTwo';
