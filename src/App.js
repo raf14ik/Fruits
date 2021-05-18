@@ -1,15 +1,22 @@
 import React, { useEffect } from 'react';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+import './Categorie.css';
 import './App.css';
 import './flip.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Header from './components/Header';
 import Footer from './components/Footer';
+
 import Home from './pages/Home';
 import Categorie from './pages/Categorie';
 import Contact from './pages/Contact';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import CategorieOne from './pages/CategorieOne';
 import CategorieTwo from './pages/CategorieTwo';
 

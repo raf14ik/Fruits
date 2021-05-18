@@ -1,0 +1,23 @@
+@media (max-width: 577px) {
+  #root
+    > div
+    > div.container-fluid
+    > div:nth-child(n)
+    > div
+    > div
+    > div:nth-child(1)
+    > img {
+    margin-top: 3% !important;
+  }
+  #root
+    > div
+    > div.container-fluid
+    > div:nth-child(n)
+    > div
+    > div
+    > div:nth-child(3)
+    > div
+    > p {
+    margin-top: 3% !important;
+  }
+}

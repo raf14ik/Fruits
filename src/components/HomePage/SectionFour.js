@@ -42,9 +42,7 @@ function SectionFour() {
               }}
             >
               <Card.Body style={{ textAlign: 'center' }}>
-                <Card.Text
-                  style={{ color: '#fff', color: '#fff', marginTop: '4rem' }}
-                >
+                <Card.Text style={{ color: '#fff', marginTop: '4rem' }}>
                   Fruits Snacks
                 </Card.Text>
                 <Button variant="primary">

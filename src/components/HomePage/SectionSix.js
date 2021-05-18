@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Card, Button, Row, Col } from 'react-bootstrap';
-import cat from '../../images/cat.jpg';
+import cat from '../../images/cat.png';
 import Arrow from '../../Arrow.js';
 
 function SectionSix() {
   return (
     <div className="sectionSix">
       <Container fluid>
-        <Card className="bg-light text-white" style={{ textAlign: 'center' }}>
+        <Card style={{ backgroundColor: '#17a2b8', textAlign: 'center' }}>
           <Row>
             <Col sm={5}>
               <Card.Img src={cat} alt="Card image" />
@@ -15,11 +15,9 @@ function SectionSix() {
             <Col sm={7}>
               <Card.Body>
                 <Card.Text style={{ color: '#000' }}>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Description de tous les catégories.
                 </Card.Text>{' '}
-                <Button href="/categories" variant="primary">
+                <Button href="/categories" variant="warning">
                   voir tous les catégories <Arrow />
                 </Button>
               </Card.Body>

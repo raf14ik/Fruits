@@ -29,11 +29,11 @@ function SectionFive() {
           data-aos="zoom-in-down"
           data-aos-offset="200"
           data-aos-easing="ease-in-sine"
-          data-aos-duration="500"
+          data-aos-duration="800"
         >
           <Carousel
             data-aos="zoom-in-left"
-            data-aos-duration="600"
+            data-aos-duration="800"
             slides={slides}
             autoplay={false}
             interval={2000}

@@ -63,7 +63,9 @@ function Footer() {
               </a>
             </Col>
           </Row>
-          <p class="copyright">Copyright all rights reserved - Fruits © 2021</p>
+          <p className="copyright">
+            Copyright all rights reserved - Fruits © 2021
+          </p>
         </footer>
       </Container>
     </div>

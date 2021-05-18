@@ -1,34 +1,34 @@
 import React from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
 
-import cat1 from '../../images/categorie1.png';
-import catback1 from '../../images/categoriebackground1.PNG';
+import cat5 from '../../images/categorie5.png';
+import catback5 from '../../images/categoriebackground5.PNG';
 
 import Arrow from '../../Arrow.js';
 
-function SectionOne() {
+function SectionFive() {
   return (
     <div className="section">
-      <Card style={{ textAlign: 'center', backgroundColor: '#9321c8' }}>
+      <Card style={{ textAlign: 'center', backgroundColor: '#00bfb3' }}>
         <Row>
           <Col sm={4}>
             <Card.Img
-              src={catback1}
+              src={catback5}
               alt="Card image"
-              style={{ marginTop: '20%' }}
+              style={{ marginTop: '30%' }}
             />
           </Col>
           <Col sm={4}>
-            <Card.Img src={cat1} alt="Card image" />
+            <Card.Img src={cat5} alt="Card image" />
           </Col>
           <Col sm={4}>
             <Card.Body>
               <Card.Text
-                style={{ fontSize: '1.5rem', marginTop: '25%', color: '#fff' }}
+                style={{ fontSize: '1.5rem', marginTop: '40%', color: '#fff' }}
               >
-                description.
+                description .
               </Card.Text>
-              <Button href="/categorie-one" variant="warning">
+              <Button href="/categorie-one" variant="danger">
                 Voir plus <Arrow />
               </Button>
             </Card.Body>
@@ -39,4 +39,4 @@ function SectionOne() {
   );
 }
 
-export default SectionOne;
+export default SectionFive;

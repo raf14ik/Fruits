@@ -1,33 +1,34 @@
 import React from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
 
-import cat2 from '../../images/categorie2.png';
-import catback2 from '../../images/categoriebackground2.PNG';
+import cat7 from '../../images/categorie7.png';
+import catback7 from '../../images/categoriebackground7.PNG';
 
 import Arrow from '../../Arrow.js';
 
-function SectionTwo() {
+function SectionSeven() {
   return (
     <div className="section">
-      <Card style={{ textAlign: 'center', backgroundColor: '#ff8d6f' }}>
+      <Card style={{ textAlign: 'center', backgroundColor: '#ff914d' }}>
         <Row>
           <Col sm={4}>
             <Card.Img
-              src={catback2}
+              src={catback7}
               alt="Card image"
               style={{ marginTop: '20%' }}
             />
           </Col>
           <Col sm={4}>
-            <Card.Img src={cat2} alt="Card image" />
+            <Card.Img src={cat7} alt="Card image" />
           </Col>
           <Col sm={4}>
             <Card.Body>
               <Card.Text
-                style={{ fontSize: '1.5rem', marginTop: '30%', color: '#000' }}
+                style={{ fontSize: '1.5rem', marginTop: '25%', color: '#000' }}
               >
-                POUR SE FAIRE PLAISIR, RETROUVEZ L'AUTHENTICITÉ DU FRUIT AVEC LA
-                GAMME FRUIS.
+                <strong>Incontournables</strong> <br></br>
+                Une palette colorée de saveurs où nos pommes sont associées à
+                d’autres fruits tout aussi savoureux dans des desserts.
               </Card.Text>
               <Button href="/categorie-one" variant="light">
                 Voir plus <Arrow />
@@ -40,4 +41,4 @@ function SectionTwo() {
   );
 }
 
-export default SectionTwo;
+export default SectionSeven;

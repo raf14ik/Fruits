@@ -2,8 +2,6 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../App.css';
 import Cup from '../Cup.js';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function header() {
   return (

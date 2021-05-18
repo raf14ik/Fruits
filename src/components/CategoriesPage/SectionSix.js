@@ -1,32 +1,33 @@
 import React from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
 
-import cat1 from '../../images/categorie1.png';
-import catback1 from '../../images/categoriebackground1.PNG';
+import cat6 from '../../images/categorie6.png';
+import catback6 from '../../images/categoriebackground6.PNG';
 
 import Arrow from '../../Arrow.js';
 
-function SectionOne() {
+function SectionSix() {
   return (
     <div className="section">
-      <Card style={{ textAlign: 'center', backgroundColor: '#9321c8' }}>
+      <Card style={{ textAlign: 'center', backgroundColor: '#28a745' }}>
         <Row>
           <Col sm={4}>
             <Card.Img
-              src={catback1}
+              src={catback6}
               alt="Card image"
               style={{ marginTop: '20%' }}
             />
           </Col>
           <Col sm={4}>
-            <Card.Img src={cat1} alt="Card image" />
+            <Card.Img src={cat6} alt="Card image" />
           </Col>
           <Col sm={4}>
             <Card.Body>
               <Card.Text
-                style={{ fontSize: '1.5rem', marginTop: '25%', color: '#fff' }}
+                style={{ fontSize: '1.5rem', marginTop: '30%', color: '#fff' }}
               >
-                description.
+                Idéal pour la réalisation de desserts faciles et rapides à
+                préparer.
               </Card.Text>
               <Button href="/categorie-one" variant="warning">
                 Voir plus <Arrow />
@@ -39,4 +40,4 @@ function SectionOne() {
   );
 }
 
-export default SectionOne;
+export default SectionSix;
